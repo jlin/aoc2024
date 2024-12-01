@@ -1,0 +1,49 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "ada",
+			"compound": [
+				"Build main - src/day1.adb",
+				"Run main - src/day1.adb"
+			],
+			"problemMatcher": [
+				""
+			],
+			"label": "ada: Build and run main - src/day1.adb"
+		},
+		{
+			"type": "ada",
+			"command": "alr",
+			"args": [
+				"build",
+				"--",
+				"-cargs:ada",
+				"-gnatef"
+			],
+			"problemMatcher": [
+				"$ada"
+			],
+			"group": "build",
+			"label": "ada: Build current project"
+		},
+		{
+			"type": "ada",
+			"command": "alr",
+			"args": [
+				"exec",
+				"--",
+				"gprbuild",
+				"${command:ada.gprProjectArgs}",
+				"src/day1.adb",
+				"-cargs:ada",
+				"-gnatef"
+			],
+			"problemMatcher": [
+				"$ada"
+			],
+			"group": "build",
+			"label": "ada: Build main - src/day1.adb"
+		}
+	]
+}
