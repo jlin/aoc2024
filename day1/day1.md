@@ -13,6 +13,7 @@
 ## Ada things
 
 - how to build an array
+- how to sort an array, are there any built in sorting functions?
 - how to index into an array
 - how to calculate sums
 - how to compare and/or do an absolute value of a subtraction
