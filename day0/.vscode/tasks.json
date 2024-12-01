@@ -18,6 +18,28 @@
 			],
 			"group": "build",
 			"label": "ada: Build main - src/day0.adb"
+		},
+		{
+			"type": "ada",
+			"compound": [
+				"Build main - src/day0.adb",
+				"Run main - src/day0.adb"
+			],
+			"problemMatcher": [
+				""
+			],
+			"label": "ada: Build and run main - src/day0.adb"
+		},
+		{
+			"type": "ada",
+			"command": "alr",
+			"args": [
+				"exec",
+				"--",
+				"./bin/day0"
+			],
+			"problemMatcher": [],
+			"label": "ada: Run main - src/day0.adb"
 		}
 	]
 }
