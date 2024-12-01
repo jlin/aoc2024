@@ -1,0 +1,12 @@
+name = "day0"
+description = "Day 0 prep "
+version = "0.1.0-dev"
+
+authors = ["Jonathan Lin"]
+maintainers = ["Jonathan Lin <jlin@winteroftext.ca>"]
+maintainers-logins = ["jlin"]
+licenses = "BSD-3-Clause"
+website = ""
+tags = []
+
+executables = ["day0"]
