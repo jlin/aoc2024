@@ -18,5 +18,5 @@
 - `--  ` for comments
 - spacing is important for the linter
 
-- (gdb debugging on macos)[https://dev.to/jasonelwood/setup-gdb-on-macos-in-2020-489k]
+- [gdb debugging on macos](https://dev.to/jasonelwood/setup-gdb-on-macos-in-2020-489k)
 
