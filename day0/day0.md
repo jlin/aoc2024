@@ -2,10 +2,14 @@
 
 ## Tasks
 [x] set up a dev environment
+
 [x] use alire
         - `alr init --bin day0`
+
 [x] use vs code with the adacore plugin
+
 [x] get day0 compiling 
+
 [ ] get the debugger working - this seems impossibly challenging to get gdb to work with vscode
 
 ## Notes
