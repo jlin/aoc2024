@@ -1,0 +1,12 @@
+name = "day1"
+description = "AoC2024 day 1"
+version = "0.1.0-dev"
+
+authors = ["Jonathan Lin"]
+maintainers = ["Jonathan Lin <jlin@winteroftext.ca>"]
+maintainers-logins = ["jlin"]
+licenses = "BSD-3-Clause"
+website = ""
+tags = []
+
+executables = ["day1"]
