@@ -12,6 +12,8 @@
 
 [ ] get the debugger working - this seems impossibly challenging to get gdb to work with vscode
 
+[x] start working with a textbook - [Beginning Ada Programming](https://link.springer.com/book/10.1007/978-1-4842-5428-8) from local library
+
 ## Notes
 - These seemingly simple introductory steps took a whole day for me. The trick was **don't start with the demo hello world program, which has some dependencies**
 - Instead, start with a blank "bin" project and build the program up from scratch.
