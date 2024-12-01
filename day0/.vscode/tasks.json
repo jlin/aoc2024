@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "ada",
+			"command": "alr",
+			"args": [
+				"exec",
+				"--",
+				"gprbuild",
+				"${command:ada.gprProjectArgs}",
+				"src/day0.adb",
+				"-cargs:ada",
+				"-gnatef"
+			],
+			"problemMatcher": [
+				"$ada"
+			],
+			"group": "build",
+			"label": "ada: Build main - src/day0.adb"
+		}
+	]
+}

@@ -1,8 +1,18 @@
 # day 0
-- set up a dev environment
-- use alire
-- use vs code with the adacore plugin
-- try to get hello world compiling and the debugger working
 
-- These seemingly simple introductory steps are huge roadblocks for me. If I can't get my code editor/IDE or a debugger working, I won't have a good time with this experience.
+## Tasks
+[x] set up a dev environment
+[x] use alire
+        - `alr init --bin day0`
+[x] use vs code with the adacore plugin
+[x] get day0 compiling 
+[ ] get the debugger working - this seems impossibly challenging to get gdb to work with vscode
+
+## Notes
+- These seemingly simple introductory steps took a whole day for me. The trick was **don't start with the demo hello world program, which has some dependencies**
+- Instead, start with a blank "bin" project and build the program up from scratch.
+- `--  ` for comments
+- spacing is important for the linter
+
+- (gdb debugging on macos)[https://dev.to/jasonelwood/setup-gdb-on-macos-in-2020-489k]
 
